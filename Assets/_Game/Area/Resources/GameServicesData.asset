@@ -1,0 +1,650 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e8b020aeead5042e2af6469d465cb96e, type: 3}
+  m_Name: GameServicesData
+  m_EditorClassIdentifier:
+  useForAndroid: 1
+  useForIos: 1
+  usePlaymaker: 0
+  googleAppId: 874081527563
+  allGameAchievements:
+  - name: FinishAs0
+    idGoogle: CgkIi87GmrgZEAIQAA
+    idIos: 0
+    achivementComplete: 0
+  - name: FinishAs1
+    idGoogle: CgkIi87GmrgZEAIQAQ
+    idIos: 1
+    achivementComplete: 0
+  - name: FinishAs2
+    idGoogle: CgkIi87GmrgZEAIQAg
+    idIos: 2
+    achivementComplete: 0
+  - name: KnockOutEnemy0
+    idGoogle: CgkIi87GmrgZEAIQAw
+    idIos: 3
+    achivementComplete: 0
+  - name: KnockOutEnemy1
+    idGoogle: CgkIi87GmrgZEAIQBA
+    idIos: 4
+    achivementComplete: 0
+  - name: KnockOutEnemy2
+    idGoogle: CgkIi87GmrgZEAIQBQ
+    idIos: 5
+    achivementComplete: 0
+  - name: FinishTime0
+    idGoogle: CgkIi87GmrgZEAIQCA
+    idIos: 6
+    achivementComplete: 0
+  - name: FinishTime1
+    idGoogle: CgkIi87GmrgZEAIQCQ
+    idIos: 7
+    achivementComplete: 0
+  - name: FinishTime2
+    idGoogle: CgkIi87GmrgZEAIQCg
+    idIos: 8
+    achivementComplete: 0
+  - name: FinishTime3
+    idGoogle: CgkIi87GmrgZEAIQCw
+    idIos: 9
+    achivementComplete: 0
+  - name: FinishTime4
+    idGoogle: CgkIi87GmrgZEAIQDA
+    idIos: 10
+    achivementComplete: 0
+  - name: FinishTime5
+    idGoogle: CgkIi87GmrgZEAIQDQ
+    idIos: 11
+    achivementComplete: 0
+  - name: FinishTime6
+    idGoogle: CgkIi87GmrgZEAIQDg
+    idIos: 12
+    achivementComplete: 0
+  - name: FinishTime7
+    idGoogle: CgkIi87GmrgZEAIQDw
+    idIos: 13
+    achivementComplete: 0
+  - name: FinishTime8
+    idGoogle: CgkIi87GmrgZEAIQEA
+    idIos: 14
+    achivementComplete: 0
+  - name: FinishTime9
+    idGoogle: CgkIi87GmrgZEAIQEQ
+    idIos: 15
+    achivementComplete: 0
+  - name: FinishTime10
+    idGoogle: CgkIi87GmrgZEAIQEg
+    idIos: 16
+    achivementComplete: 0
+  - name: FinishTime11
+    idGoogle: CgkIi87GmrgZEAIQEw
+    idIos: 17
+    achivementComplete: 0
+  - name: Revive0
+    idGoogle: CgkIi87GmrgZEAIQFA
+    idIos: 19
+    achivementComplete: 0
+  - name: Revive1
+    idGoogle: CgkIi87GmrgZEAIQFQ
+    idIos: 20
+    achivementComplete: 0
+  - name: Revive2
+    idGoogle: CgkIi87GmrgZEAIQFg
+    idIos: 21
+    achivementComplete: 0
+  - name: Revive3
+    idGoogle: CgkIi87GmrgZEAIQFw
+    idIos: 22
+    achivementComplete: 0
+  - name: Revive4
+    idGoogle: CgkIi87GmrgZEAIQGA
+    idIos: 23
+    achivementComplete: 0
+  - name: ExtraBlock0
+    idGoogle: CgkIi87GmrgZEAIQGQ
+    idIos: 24
+    achivementComplete: 0
+  - name: ExtraBlock1
+    idGoogle: CgkIi87GmrgZEAIQGg
+    idIos: 25
+    achivementComplete: 0
+  - name: ExtraBlock2
+    idGoogle: CgkIi87GmrgZEAIQGw
+    idIos: 26
+    achivementComplete: 0
+  - name: ExtraBlock3
+    idGoogle: CgkIi87GmrgZEAIQHA
+    idIos: 27
+    achivementComplete: 0
+  - name: ExtraBlock4
+    idGoogle: CgkIi87GmrgZEAIQHQ
+    idIos: 28
+    achivementComplete: 0
+  - name: ExtraBlock5
+    idGoogle: CgkIi87GmrgZEAIQHg
+    idIos: 29
+    achivementComplete: 0
+  - name: ExtraBlock6
+    idGoogle: CgkIi87GmrgZEAIQHw
+    idIos: 30
+    achivementComplete: 0
+  - name: ExtraBlock7
+    idGoogle: CgkIi87GmrgZEAIQIA
+    idIos: 31
+    achivementComplete: 0
+  - name: ExtraBlock8
+    idGoogle: CgkIi87GmrgZEAIQIQ
+    idIos: 32
+    achivementComplete: 0
+  - name: ExtraBlock9
+    idGoogle: CgkIi87GmrgZEAIQIg
+    idIos: 33
+    achivementComplete: 0
+  - name: ExtraBlock10
+    idGoogle: CgkIi87GmrgZEAIQIw
+    idIos: 34
+    achivementComplete: 0
+  - name: ExtraBlock11
+    idGoogle: CgkIi87GmrgZEAIQJA
+    idIos: 35
+    achivementComplete: 0
+  - name: ExtraBlock12
+    idGoogle: CgkIi87GmrgZEAIQJQ
+    idIos: 36
+    achivementComplete: 0
+  - name: ExtraBlock13
+    idGoogle: CgkIi87GmrgZEAIQJg
+    idIos: 37
+    achivementComplete: 0
+  - name: KnockEnemy0
+    idGoogle: CgkIi87GmrgZEAIQJw
+    idIos: 38
+    achivementComplete: 0
+  - name: KnockEnemy1
+    idGoogle: CgkIi87GmrgZEAIQKA
+    idIos: 39
+    achivementComplete: 0
+  - name: KnockEnemy2
+    idGoogle: CgkIi87GmrgZEAIQKQ
+    idIos: 40
+    achivementComplete: 0
+  - name: KnockEnemy3
+    idGoogle: CgkIi87GmrgZEAIQKg
+    idIos: 41
+    achivementComplete: 0
+  - name: KnockEnemy4
+    idGoogle: CgkIi87GmrgZEAIQKw
+    idIos: 42
+    achivementComplete: 0
+  - name: KnockEnemy5
+    idGoogle: CgkIi87GmrgZEAIQLA
+    idIos: 43
+    achivementComplete: 0
+  - name: KnockEnemy6
+    idGoogle: CgkIi87GmrgZEAIQLQ
+    idIos: 44
+    achivementComplete: 0
+  - name: KnockEnemy7
+    idGoogle: CgkIi87GmrgZEAIQLg
+    idIos: 45
+    achivementComplete: 0
+  - name: KnockEnemy8
+    idGoogle: CgkIi87GmrgZEAIQLw
+    idIos: 46
+    achivementComplete: 0
+  - name: KnockEnemy9
+    idGoogle: CgkIi87GmrgZEAIQMA
+    idIos: 47
+    achivementComplete: 0
+  - name: Character0
+    idGoogle: CgkIi87GmrgZEAIQMQ
+    idIos: 48
+    achivementComplete: 0
+  - name: Character1
+    idGoogle: CgkIi87GmrgZEAIQMg
+    idIos: 49
+    achivementComplete: 0
+  - name: Character2
+    idGoogle: CgkIi87GmrgZEAIQMw
+    idIos: 50
+    achivementComplete: 0
+  - name: Character3
+    idGoogle: CgkIi87GmrgZEAIQNA
+    idIos: 51
+    achivementComplete: 0
+  - name: Character4
+    idGoogle: CgkIi87GmrgZEAIQNQ
+    idIos: 52
+    achivementComplete: 0
+  - name: Character5
+    idGoogle: CgkIi87GmrgZEAIQNg
+    idIos: 53
+    achivementComplete: 0
+  - name: Character6
+    idGoogle: CgkIi87GmrgZEAIQNw
+    idIos: 54
+    achivementComplete: 0
+  - name: Character7
+    idGoogle: CgkIi87GmrgZEAIQOA
+    idIos: 55
+    achivementComplete: 0
+  - name: Character8
+    idGoogle: CgkIi87GmrgZEAIQOQ
+    idIos: 56
+    achivementComplete: 0
+  - name: Character9
+    idGoogle: CgkIi87GmrgZEAIQOg
+    idIos: 57
+    achivementComplete: 0
+  - name: Collectible0
+    idGoogle: CgkIi87GmrgZEAIQOw
+    idIos: 58
+    achivementComplete: 0
+  - name: Collectible1
+    idGoogle: CgkIi87GmrgZEAIQPA
+    idIos: 59
+    achivementComplete: 0
+  - name: Collectible2
+    idGoogle: CgkIi87GmrgZEAIQPQ
+    idIos: 60
+    achivementComplete: 0
+  - name: Collectible3
+    idGoogle: CgkIi87GmrgZEAIQPg
+    idIos: 61
+    achivementComplete: 0
+  - name: Collectible4
+    idGoogle: CgkIi87GmrgZEAIQPw
+    idIos: 62
+    achivementComplete: 0
+  - name: Collectible5
+    idGoogle: CgkIi87GmrgZEAIQQA
+    idIos: 63
+    achivementComplete: 0
+  - name: Collectible6
+    idGoogle: CgkIi87GmrgZEAIQQQ
+    idIos: 64
+    achivementComplete: 0
+  - name: Collectible7
+    idGoogle: CgkIi87GmrgZEAIQQg
+    idIos: 65
+    achivementComplete: 0
+  - name: Color0
+    idGoogle: CgkIi87GmrgZEAIQQw
+    idIos: 66
+    achivementComplete: 0
+  - name: Color1
+    idGoogle: CgkIi87GmrgZEAIQRA
+    idIos: 67
+    achivementComplete: 0
+  - name: Color2
+    idGoogle: CgkIi87GmrgZEAIQRQ
+    idIos: 68
+    achivementComplete: 0
+  - name: Color3
+    idGoogle: CgkIi87GmrgZEAIQRg
+    idIos: 69
+    achivementComplete: 0
+  - name: Color4
+    idGoogle: CgkIi87GmrgZEAIQRw
+    idIos: 70
+    achivementComplete: 0
+  - name: Color5
+    idGoogle: CgkIi87GmrgZEAIQSA
+    idIos: 71
+    achivementComplete: 0
+  - name: Color6
+    idGoogle: CgkIi87GmrgZEAIQSQ
+    idIos: 72
+    achivementComplete: 0
+  - name: Color7
+    idGoogle: CgkIi87GmrgZEAIQSg
+    idIos: 73
+    achivementComplete: 0
+  - name: StartWithExtra0
+    idGoogle: CgkIi87GmrgZEAIQSw
+    idIos: 74
+    achivementComplete: 0
+  - name: StartWithExtra1
+    idGoogle: CgkIi87GmrgZEAIQTA
+    idIos: 75
+    achivementComplete: 0
+  - name: StartWithExtra2
+    idGoogle: CgkIi87GmrgZEAIQTQ
+    idIos: 76
+    achivementComplete: 0
+  - name: StartWithExtra3
+    idGoogle: CgkIi87GmrgZEAIQTg
+    idIos: 77
+    achivementComplete: 0
+  - name: StartWithExtra4
+    idGoogle: CgkIi87GmrgZEAIQTw
+    idIos: 78
+    achivementComplete: 0
+  - name: StartWithExtra5
+    idGoogle: CgkIi87GmrgZEAIQUA
+    idIos: 79
+    achivementComplete: 0
+  - name: StartWithExtra6
+    idGoogle: CgkIi87GmrgZEAIQUQ
+    idIos: 80
+    achivementComplete: 0
+  - name: StartWithExtra7
+    idGoogle: CgkIi87GmrgZEAIQUg
+    idIos: 81
+    achivementComplete: 0
+  - name: OpenUpChest0
+    idGoogle: CgkIi87GmrgZEAIQUw
+    idIos: 82
+    achivementComplete: 0
+  - name: OpenUpChest1
+    idGoogle: CgkIi87GmrgZEAIQVA
+    idIos: 83
+    achivementComplete: 0
+  - name: OpenUpChest2
+    idGoogle: CgkIi87GmrgZEAIQVQ
+    idIos: 84
+    achivementComplete: 0
+  - name: MultiplyCoin0
+    idGoogle: CgkIi87GmrgZEAIQVg
+    idIos: 85
+    achivementComplete: 0
+  - name: MultiplyCoin1
+    idGoogle: CgkIi87GmrgZEAIQVw
+    idIos: 86
+    achivementComplete: 0
+  - name: MultiplyCoin2
+    idGoogle: CgkIi87GmrgZEAIQWA
+    idIos: 87
+    achivementComplete: 0
+  - name: MultiplyCoin3
+    idGoogle: CgkIi87GmrgZEAIQWQ
+    idIos: 88
+    achivementComplete: 0
+  - name: MultiplyCoin4
+    idGoogle: CgkIi87GmrgZEAIQWg
+    idIos: 89
+    achivementComplete: 0
+  - name: MultiplyCoin5
+    idGoogle: CgkIi87GmrgZEAIQWw
+    idIos: 90
+    achivementComplete: 0
+  - name: MultiplyCoin6
+    idGoogle: CgkIi87GmrgZEAIQXA
+    idIos: 91
+    achivementComplete: 0
+  - name: MultiplyCoin7
+    idGoogle: CgkIi87GmrgZEAIQXQ
+    idIos: 92
+    achivementComplete: 0
+  - name: SkipLvl0
+    idGoogle: CgkIi87GmrgZEAIQXg
+    idIos: 93
+    achivementComplete: 0
+  - name: SkipLvl1
+    idGoogle: CgkIi87GmrgZEAIQXw
+    idIos: 94
+    achivementComplete: 0
+  - name: SkipLvl2
+    idGoogle: CgkIi87GmrgZEAIQYA
+    idIos: 95
+    achivementComplete: 0
+  - name: SkipLvl3
+    idGoogle: CgkIi87GmrgZEAIQYQ
+    idIos: 96
+    achivementComplete: 0
+  - name: PassMultipliersInOneLevel0
+    idGoogle: CgkIi87GmrgZEAIQZA
+    idIos: 97
+    achivementComplete: 0
+  - name: PassMultipliersInOneLevel1
+    idGoogle: CgkIi87GmrgZEAIQZQ
+    idIos: 98
+    achivementComplete: 0
+  - name: PassMultipliersTotal0
+    idGoogle: CgkIi87GmrgZEAIQZg
+    idIos: 99
+    achivementComplete: 0
+  - name: PassMultipliersTotal1
+    idGoogle: CgkIi87GmrgZEAIQZw
+    idIos: 100
+    achivementComplete: 0
+  - name: PassMultipliersTotal2
+    idGoogle: CgkIi87GmrgZEAIQaA
+    idIos: 101
+    achivementComplete: 0
+  - name: PassMultipliersTotal3
+    idGoogle: CgkIi87GmrgZEAIQaQ
+    idIos: 102
+    achivementComplete: 0
+  - name: PassMultipliersTotal4
+    idGoogle: CgkIi87GmrgZEAIQag
+    idIos: 103
+    achivementComplete: 0
+  - name: FinishWithExtraTotal0
+    idGoogle: CgkIi87GmrgZEAIQaw
+    idIos: 104
+    achivementComplete: 0
+  - name: FinishWithExtraTotal1
+    idGoogle: CgkIi87GmrgZEAIQbA
+    idIos: 105
+    achivementComplete: 0
+  - name: FinishWithExtraTotal2
+    idGoogle: CgkIi87GmrgZEAIQbQ
+    idIos: 106
+    achivementComplete: 0
+  - name: FinishWithExtraTotal3
+    idGoogle: CgkIi87GmrgZEAIQbg
+    idIos: 107
+    achivementComplete: 0
+  - name: FinishWithExtraTotal4
+    idGoogle: CgkIi87GmrgZEAIQbw
+    idIos: 108
+    achivementComplete: 0
+  - name: FinishWithExtraTotal5
+    idGoogle: CgkIi87GmrgZEAIQcA
+    idIos: 109
+    achivementComplete: 0
+  - name: FinishWithExtraTotal6
+    idGoogle: CgkIi87GmrgZEAIQcQ
+    idIos: 110
+    achivementComplete: 0
+  - name: FinishWithExtraAndUnderTime0
+    idGoogle: CgkIi87GmrgZEAIQcg
+    idIos: 111
+    achivementComplete: 0
+  - name: FinishWithExtraAndUnderTime1
+    idGoogle: CgkIi87GmrgZEAIQcw
+    idIos: 112
+    achivementComplete: 0
+  - name: FinishWithExtraAndUnderTime2
+    idGoogle: CgkIi87GmrgZEAIQdA
+    idIos: 113
+    achivementComplete: 0
+  - name: FinishWithExtraAndUnderTime3
+    idGoogle: CgkIi87GmrgZEAIQdQ
+    idIos: 114
+    achivementComplete: 0
+  - name: FinishWithExtraAndUnderTime4
+    idGoogle: CgkIi87GmrgZEAIQdg
+    idIos: 115
+    achivementComplete: 0
+  - name: FinishWithExtraAndUnderTime5
+    idGoogle: CgkIi87GmrgZEAIQdw
+    idIos: 116
+    achivementComplete: 0
+  - name: FinishWithExtraAndUnderTime6
+    idGoogle: CgkIi87GmrgZEAIQeA
+    idIos: 117
+    achivementComplete: 0
+  - name: FinishWithExtraAndUnderTime7
+    idGoogle: CgkIi87GmrgZEAIQeQ
+    idIos: 118
+    achivementComplete: 0
+  - name: TotalPlayTime0
+    idGoogle: CgkIi87GmrgZEAIQeg
+    idIos: 119
+    achivementComplete: 0
+  - name: TotalPlayTime1
+    idGoogle: CgkIi87GmrgZEAIQew
+    idIos: 120
+    achivementComplete: 0
+  - name: TotalPlayTime2
+    idGoogle: CgkIi87GmrgZEAIQfA
+    idIos: 121
+    achivementComplete: 0
+  - name: TotalPlayTime3
+    idGoogle: CgkIi87GmrgZEAIQfQ
+    idIos: 122
+    achivementComplete: 0
+  - name: TotalPlayTime4
+    idGoogle: CgkIi87GmrgZEAIQfg
+    idIos: 123
+    achivementComplete: 0
+  - name: TotalPlayTime5
+    idGoogle: CgkIi87GmrgZEAIQfw
+    idIos: 124
+    achivementComplete: 0
+  - name: TotalPlayTime6
+    idGoogle: CgkIi87GmrgZEAIQgAE
+    idIos: 125
+    achivementComplete: 0
+  - name: TotalPlayTime7
+    idGoogle: CgkIi87GmrgZEAIQgQE
+    idIos: 126
+    achivementComplete: 0
+  - name: TotalPlayTime8
+    idGoogle: CgkIi87GmrgZEAIQggE
+    idIos: 127
+    achivementComplete: 0
+  - name: PassBridgeInOneLevel0
+    idGoogle: CgkIi87GmrgZEAIQgwE
+    idIos: 128
+    achivementComplete: 0
+  - name: PassBridgeInOneLevel1
+    idGoogle: CgkIi87GmrgZEAIQhAE
+    idIos: 129
+    achivementComplete: 0
+  - name: PassBridgeTotal0
+    idGoogle: CgkIi87GmrgZEAIQhQE
+    idIos: 130
+    achivementComplete: 0
+  - name: PassBridgeTotal1
+    idGoogle: CgkIi87GmrgZEAIQhgE
+    idIos: 131
+    achivementComplete: 0
+  - name: PassBridgeTotal2
+    idGoogle: CgkIi87GmrgZEAIQhwE
+    idIos: 132
+    achivementComplete: 0
+  - name: PassBridgeTotal3
+    idGoogle: CgkIi87GmrgZEAIQiAE
+    idIos: 133
+    achivementComplete: 0
+  - name: PassBridgeTotal4
+    idGoogle: CgkIi87GmrgZEAIQiQE
+    idIos: 134
+    achivementComplete: 0
+  - name: PassBridgeTotal5
+    idGoogle: CgkIi87GmrgZEAIQigE
+    idIos: 135
+    achivementComplete: 0
+  - name: PlayThemeOnce0
+    idGoogle: CgkIi87GmrgZEAIQiwE
+    idIos: 136
+    achivementComplete: 0
+  - name: PlayThemeOnce1
+    idGoogle: CgkIi87GmrgZEAIQjAE
+    idIos: 137
+    achivementComplete: 0
+  - name: PlayThemeOnce2
+    idGoogle: CgkIi87GmrgZEAIQjQE
+    idIos: 138
+    achivementComplete: 0
+  - name: PlayThemeOnce3
+    idGoogle: CgkIi87GmrgZEAIQjgE
+    idIos: 139
+    achivementComplete: 0
+  - name: PlayThemeOnce4
+    idGoogle: CgkIi87GmrgZEAIQjwE
+    idIos: 140
+    achivementComplete: 0
+  - name: PlayThemeOnce5
+    idGoogle: CgkIi87GmrgZEAIQkAE
+    idIos: 141
+    achivementComplete: 0
+  - name: PlayThemeOnce6
+    idGoogle: CgkIi87GmrgZEAIQkQE
+    idIos: 142
+    achivementComplete: 0
+  - name: PlayThemeOnce7
+    idGoogle: CgkIi87GmrgZEAIQkgE
+    idIos: 143
+    achivementComplete: 0
+  - name: PlayThemeOnce8
+    idGoogle: CgkIi87GmrgZEAIQkwE
+    idIos: 144
+    achivementComplete: 0
+  - name: CollectCoinBonusLevel0
+    idGoogle: CgkIi87GmrgZEAIQlAE
+    idIos: 145
+    achivementComplete: 0
+  - name: CollectCoinBonusLevel1
+    idGoogle: CgkIi87GmrgZEAIQlQE
+    idIos: 146
+    achivementComplete: 0
+  - name: CollectCoinBonusLevel2
+    idGoogle: CgkIi87GmrgZEAIQlgE
+    idIos: 147
+    achivementComplete: 0
+  - name: CastleCompleted0
+    idGoogle: CgkIi87GmrgZEAIQlwE
+    idIos: 148
+    achivementComplete: 0
+  - name: CastleCompleted1
+    idGoogle: CgkIi87GmrgZEAIQmAE
+    idIos: 149
+    achivementComplete: 0
+  - name: CastleCompleted2
+    idGoogle: CgkIi87GmrgZEAIQmQE
+    idIos: 150
+    achivementComplete: 0
+  - name: CastleCompleted3
+    idGoogle: CgkIi87GmrgZEAIQmgE
+    idIos: 151
+    achivementComplete: 0
+  - name: CastleCompleted4
+    idGoogle: CgkIi87GmrgZEAIQmwE
+    idIos: 152
+    achivementComplete: 0
+  - name: CastleCompleted5
+    idGoogle: CgkIi87GmrgZEAIQnAE
+    idIos: 153
+    achivementComplete: 0
+  - name: CastleCompleted6
+    idGoogle: CgkIi87GmrgZEAIQnQE
+    idIos: 154
+    achivementComplete: 0
+  - name: CastleCompleted7
+    idGoogle: CgkIi87GmrgZEAIQngE
+    idIos: 155
+    achivementComplete: 0
+  - name: CastleCompleted8
+    idGoogle: CgkIi87GmrgZEAIQnwE
+    idIos: 156
+    achivementComplete: 0
+  - name: CastleCompleted9
+    idGoogle: CgkIi87GmrgZEAIQoAE
+    idIos: 157
+    achivementComplete: 0
+  allGameLeaderboards: []
+  useGameFlow: 0
+  useBolt: 0

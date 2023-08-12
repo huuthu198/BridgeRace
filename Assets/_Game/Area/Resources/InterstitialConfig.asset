@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5e9f88d7a4ec1f6cbbd93d7a3e855919, type: 3}
+  m_Name: InterstitialConfig
+  m_EditorClassIdentifier:
+  <UseCountdownUI>k__BackingField: 1
+  <UseNoTouch>k__BackingField: 1
+  <CountdownTime>k__BackingField: 5
+  <DefaultAndroidCooldown>k__BackingField: 25
+  <DefaultIosCooldown>k__BackingField: 5
+  <AfterRvAndroidCooldown>k__BackingField: 25
+  <AfterRvIosCooldown>k__BackingField: 25
+  <AndroidMaxTimeWithoutInterstitial>k__BackingField: 25
+  <IosMaxTimeWithoutInterstitial>k__BackingField: 60
+  <AndroidNoTouchCooldown>k__BackingField: 15
+  <IosNoTouchCooldown>k__BackingField: 10

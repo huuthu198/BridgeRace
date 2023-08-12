@@ -1,0 +1,332 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2d911d3e4d67b1be2d42cd87c597075, type: 3}
+  m_Name: Settings
+  m_EditorClassIdentifier:
+  appName:
+  iosAppId: 1543845882
+  iosChinaAppId: 1626267394
+  iosGameId: 4640c0d9-fa0f-417a-93ac-80168eac47a3
+  iosChinaGameId: 2804a928-bcc2-4b49-9ef3-ecb2d07ba708
+  androidGameId: cb4a26be-c938-4fe3-b91a-a0612c64d262
+  ironSourceAndroidAppKey: efceacf1
+  ironSourceIosAppKey: eb2b31d1
+  ironSourceIosChinaAppKey: 13bf5e759
+  iosGameAnalyticsGameKey: 53d577b2d17edc89706569dc0c168fbf
+  iosGameAnalyticsSecretKey: 0ba8fb924ba57533dd2d55d232827a5ada71fc28
+  androidGameAnalyticsGameKey: c0b6670b24a42cb306235f353ea2f0fa
+  androidGameAnalyticsSecretKey: 82af3e50db6ff2c8b4f252c5660107545bb4d760
+  adMobIosAppId: ca-app-pub-9334727648055753~6185255893
+  adMobIosChinaAppId: ca-app-pub-9334727648055753~9449368626
+  adMobAndroidAppId: ca-app-pub-9334727648055753~8923592114
+  areTextMeshProEssentialsInstalled: 1
+  disableFacebookInit: 0
+  testPrivacyPolicy: -1
+  customInterstitialMinimumInterval: 0
+  interstitialMinimumInterval: 20
+  customInterstitialMinimumLevel: 0
+  interstitialMinimumLevel: 1
+  iosChinaBuildEnabled: 0
+  iapNoAdsAndroid:
+  iapNoAdsIOS:
+  iosChinaGameAnalyticsGameKey: 9653cab6c0ea50c98df7f42df177181a
+  iosChinaGameAnalyticsSecretKey: cde3160f64e9432b2f22c4fb545d440cea68447d
+  isTimeBased: 0
+  enableManagedInterstitialAds: 0
+  enableManagedBannerAds: 0
+  enableDebug: 0
+  debugIronSource: 0
+  testBlockingApiInvocation: 0
+  enableTestAds: 0
+  enableDevtools: 0
+  logViaNetwork: 0
+  iapProductsAndroid:
+  - productID: com.garawell.bridgerace.bundle
+    productType: 1
+  - productID: com.garawell.bridgerace.halloween
+    productType: 1
+  - productID: com.garawell.bridgerace.magicianbundle
+    productType: 1
+  - productID: com.garawell.bridgerace.gothicbundle
+    productType: 1
+  - productID: com.garawell.bridgerace.squidgame
+    productType: 1
+  - productID: com.garawell.bridgerace.legobundle
+    productType: 1
+  - productID: com.garawell.bridgerace.christmastwentyone
+    productType: 1
+  - productID: com.garawell.bridgerace.cartoon
+    productType: 1
+  - productID: com.garawell.bridgerace.businesswomanbundle
+    productType: 1
+  - productID: com.garawell.bridgerace.allbundles
+    productType: 1
+  - productID: com.garawell.bridgerace.superherobundle
+    productType: 1
+  - productID: com.garawell.bridgerace.bundle1
+    productType: 1
+  - productID: com.garawell.bridgerace.bundle2
+    productType: 1
+  - productID: com.garawell.bridgerace.bundle3
+    productType: 1
+  - productID: com.garawell.bridgerace.halloween1
+    productType: 1
+  - productID: com.garawell.bridgerace.halloween2
+    productType: 1
+  - productID: com.garawell.bridgerace.halloween3
+    productType: 1
+  - productID: com.garawell.bridgerace.magicianbundle1
+    productType: 1
+  - productID: com.garawell.bridgerace.magicianbundle2
+    productType: 1
+  - productID: com.garawell.bridgerace.magicianbundle3
+    productType: 1
+  - productID: com.garawell.bridgerace.gothicbundle1
+    productType: 1
+  - productID: com.garawell.bridgerace.gothicbundle2
+    productType: 1
+  - productID: com.garawell.bridgerace.gothicbundle3
+    productType: 1
+  - productID: com.garawell.bridgerace.squidgame1
+    productType: 1
+  - productID: com.garawell.bridgerace.squidgame2
+    productType: 1
+  - productID: com.garawell.bridgerace.squidgame2
+    productType: 1
+  - productID: com.garawell.bridgerace.legobundle1
+    productType: 1
+  - productID: com.garawell.bridgerace.legobundle2
+    productType: 1
+  - productID: com.garawell.bridgerace.legobundle3
+    productType: 1
+  - productID: com.garawell.bridgerace.christmastwentyone1
+    productType: 1
+  - productID: com.garawell.bridgerace.christmastwentyone2
+    productType: 1
+  - productID: com.garawell.bridgerace.christmastwentyone3
+    productType: 1
+  - productID: com.garawell.bridgerace.cartoon1
+    productType: 1
+  - productID: com.garawell.bridgerace.cartoon2
+    productType: 1
+  - productID: com.garawell.bridgerace.cartoon3
+    productType: 1
+  - productID: com.garawell.bridgerace.businesswomanbundle1
+    productType: 1
+  - productID: com.garawell.bridgerace.businesswomanbundle2
+    productType: 1
+  - productID: com.garawell.bridgerace.businesswomanbundle3
+    productType: 1
+  - productID: com.garawell.bridgerace.allbundles1
+    productType: 1
+  - productID: com.garawell.bridgerace.allbundles2
+    productType: 1
+  - productID: com.garawell.bridgerace.allbundles3
+    productType: 1
+  - productID: com.garawell.bridgerace.superherobundle1
+    productType: 1
+  - productID: com.garawell.bridgerace.superherobundle2
+    productType: 1
+  - productID: com.garawell.bridgerace.superherobundle3
+    productType: 1
+  - productID: com.garawell.bridgerace.noads
+    productType: 1
+  - productID: com.garawell.bridgerace.noads1
+    productType: 1
+  - productID: com.garawell.bridgerace.noads2
+    productType: 1
+  - productID: com.garawell.bridgerace.noads3
+    productType: 1
+  - productID: com.garawell.bridgerace.noads-1
+    productType: 1
+  - productID: com.garawell.bridgerace.bundle-1
+    productType: 1
+  - productID: com.garawell.bridgerace.magicianbundle-1
+    productType: 1
+  - productID: com.garawell.bridgerace.halloween-1
+    productType: 1
+  - productID: com.garawell.bridgerace.gothicbundle-1
+    productType: 1
+  - productID: com.garawell.bridgerace.squidgame-1
+    productType: 1
+  - productID: com.garawell.bridgerace.legobundle-1
+    productType: 1
+  - productID: com.garawell.bridgerace.christmastwentyone-1
+    productType: 1
+  - productID: com.garawell.bridgerace.cartoon-1
+    productType: 1
+  - productID: com.garawell.bridgerace.businesswomanbundle-1
+    productType: 1
+  - productID: com.garawell.bridgerace.allbundles-1
+    productType: 1
+  - productID: com.garawell.bridgerace.superherobundle-1
+    productType: 1
+  - productID: com.garawell.bridgerace.10skipads
+    productType: 0
+  - productID: com.garawell.bridgerace.50skipads
+    productType: 0
+  - productID: com.garawell.bridgerace.100skipads
+    productType: 0
+  - productID: com.garawell.bridgerace.200skipads
+    productType: 0
+  - productID: com.garawell.bridgerace.100000
+    productType: 0
+  - productID: com.garawell.bridgerace.250000
+    productType: 0
+  - productID: com.garawell.bridgerace.750000
+    productType: 0
+  - productID: com.garawell.bridgerace.1500000
+    productType: 0
+  iapProductsIos:
+  - productID: com.garawell.bridgerace.bundle
+    productType: 1
+  - productID: com.garawell.bridgerace.halloween
+    productType: 1
+  - productID: com.garawell.bridgerace.magicianbundle
+    productType: 1
+  - productID: com.garawell.bridgerace.gothicbundle
+    productType: 1
+  - productID: com.garawell.bridgerace.squidgame
+    productType: 1
+  - productID: com.garawell.bridgerace.legobundle
+    productType: 1
+  - productID: com.garawell.bridgerace.christmastwentyone
+    productType: 1
+  - productID: com.garawell.bridgerace.cartoon
+    productType: 1
+  - productID: com.garawell.bridgerace.businesswomanbundle
+    productType: 1
+  - productID: com.garawell.bridgerace.allbundles
+    productType: 1
+  - productID: com.garawell.bridgerace.superherobundle
+    productType: 1
+  - productID: com.garawell.bridgerace.bundle1
+    productType: 1
+  - productID: com.garawell.bridgerace.bundle2
+    productType: 1
+  - productID: com.garawell.bridgerace.bundle3
+    productType: 1
+  - productID: com.garawell.bridgerace.halloween1
+    productType: 1
+  - productID: com.garawell.bridgerace.halloween2
+    productType: 1
+  - productID: com.garawell.bridgerace.halloween3
+    productType: 1
+  - productID: com.garawell.bridgerace.magicianbundle1
+    productType: 1
+  - productID: com.garawell.bridgerace.magicianbundle2
+    productType: 1
+  - productID: com.garawell.bridgerace.magicianbundle3
+    productType: 1
+  - productID: com.garawell.bridgerace.gothicbundle1
+    productType: 1
+  - productID: com.garawell.bridgerace.gothicbundle2
+    productType: 1
+  - productID: com.garawell.bridgerace.gothicbundle3
+    productType: 1
+  - productID: com.garawell.bridgerace.squidgame1
+    productType: 1
+  - productID: com.garawell.bridgerace.squidgame2
+    productType: 1
+  - productID: com.garawell.bridgerace.squidgame3
+    productType: 1
+  - productID: com.garawell.bridgerace.legobundle1
+    productType: 1
+  - productID: com.garawell.bridgerace.legobundle2
+    productType: 1
+  - productID: com.garawell.bridgerace.legobundle3
+    productType: 1
+  - productID: com.garawell.bridgerace.christmastwentyone1
+    productType: 1
+  - productID: com.garawell.bridgerace.christmastwentyone2
+    productType: 1
+  - productID: com.garawell.bridgerace.christmastwentyone3
+    productType: 1
+  - productID: com.garawell.bridgerace.cartoon1
+    productType: 1
+  - productID: com.garawell.bridgerace.cartoon2
+    productType: 1
+  - productID: com.garawell.bridgerace.cartoon3
+    productType: 1
+  - productID: com.garawell.bridgerace.businesswomanbundle1
+    productType: 1
+  - productID: com.garawell.bridgerace.businesswomanbundle2
+    productType: 1
+  - productID: com.garawell.bridgerace.businesswomanbundle3
+    productType: 1
+  - productID: com.garawell.bridgerace.allbundles1
+    productType: 1
+  - productID: com.garawell.bridgerace.allbundles2
+    productType: 1
+  - productID: com.garawell.bridgerace.allbundles3
+    productType: 1
+  - productID: com.garawell.bridgerace.superherobundle1
+    productType: 1
+  - productID: com.garawell.bridgerace.superherobundle2
+    productType: 1
+  - productID: com.garawell.bridgerace.superherobundle3
+    productType: 1
+  - productID: com.Garawell.BridgeRace.NoADs
+    productType: 1
+  - productID: com.Garawell.BridgeRace.NoADs1
+    productType: 1
+  - productID: com.Garawell.BridgeRace.NoADs2
+    productType: 1
+  - productID: com.Garawell.BridgeRace.NoADs3
+    productType: 1
+  - productID: com.Garawell.BridgeRace.NoADs-1
+    productType: 1
+  - productID: com.garawell.bridgerace.bundle-1
+    productType: 1
+  - productID: com.garawell.bridgerace.magicianbundle-1
+    productType: 1
+  - productID: com.garawell.bridgerace.halloween-1
+    productType: 1
+  - productID: com.garawell.bridgerace.gothicbundle-1
+    productType: 1
+  - productID: com.garawell.bridgerace.squidgame-1
+    productType: 1
+  - productID: com.garawell.bridgerace.legobundle-1
+    productType: 1
+  - productID: com.garawell.bridgerace.christmastwentyone-1
+    productType: 1
+  - productID: com.garawell.bridgerace.cartoon-1
+    productType: 1
+  - productID: com.garawell.bridgerace.businesswomanbundle-1
+    productType: 1
+  - productID: com.garawell.bridgerace.allbundles-1
+    productType: 1
+  - productID: com.garawell.bridgerace.superherobundle-1
+    productType: 1
+  - productID: com.garawell.bridgerace.10skipads
+    productType: 0
+  - productID: com.garawell.bridgerace.50skipads
+    productType: 0
+  - productID: com.garawell.bridgerace.100skipads
+    productType: 0
+  - productID: com.garawell.bridgerace.200skipads
+    productType: 0
+  - productID: com.garawell.bridgerace.100000
+    productType: 0
+  - productID: com.garawell.bridgerace.250000
+    productType: 0
+  - productID: com.garawell.bridgerace.750000
+    productType: 0
+  - productID: com.garawell.bridgerace.1500000
+    productType: 0
+  enableAndroidIap: 1
+  enableIosIap: 1
+  validateBeforeBuild: 1
+  accountEmail:
+  selectedGameIndex: 0
+  isTitleSelectedAutomatically: 0
+  wasLoggedIn: 0
