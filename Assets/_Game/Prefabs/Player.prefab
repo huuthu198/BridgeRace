@@ -815,6 +815,7 @@ GameObject:
   - component: {fileID: 16912748681308211}
   - component: {fileID: 1771591550535784616}
   - component: {fileID: 5860606509304188997}
+  - component: {fileID: 1788458130523231871}
   - component: {fileID: 1018867361017681321}
   - component: {fileID: 415574593467926563}
   m_Layer: 0
@@ -903,9 +904,18 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   agent: {fileID: 0}
   speed: 40
-  layerStair:
-    serializedVersion: 2
-    m_Bits: 0
+--- !u!114 &1788458130523231871
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1360349248022180}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1acc834f08dd45a49932f81b2b5a5f11, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!195 &1018867361017681321
 NavMeshAgent:
   m_ObjectHideFlags: 0
@@ -941,18 +951,15 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   posAddBricks: {fileID: 0}
-  listBrickCharater: []
-  characterMat: []
+  characterMat: {fileID: 0}
   characterColor: 3
-  brickGenerator: {fileID: 0}
   brickGeneratorObject: {fileID: 0}
-  layerStair:
+  LayerStair:
     serializedVersion: 2
     m_Bits: 0
-  PosRaycast: {fileID: 0}
-  Rand: 0
-  currentPlatform: 0
+  dataColor: {fileID: 0}
   bricks: []
+  listBrickCharater: []
 --- !u!1 &1379358625613689
 GameObject:
   m_ObjectHideFlags: 0

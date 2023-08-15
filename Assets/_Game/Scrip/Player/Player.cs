@@ -2,8 +2,8 @@
 using UnityEngine;
 using UnityEngine.AI;
 
-public class Player : MonoBehaviour
-{
+public class Player : CharacterController
+{ 
     public NavMeshAgent agent;
     [SerializeField] private float speed = 60f;
   

@@ -14,9 +14,11 @@ public class CharacterController : MonoBehaviour
 
     private BrickGenerator brickGenerator;
 
-    public GameObject brickGeneratorObject;
+    [HideInInspector] public GameObject brickGeneratorObject;
 
     public LayerMask LayerStair;
+
+    
 
     [SerializeField] DataColor dataColor;
     int QuantityBrick = 0;
@@ -44,7 +46,7 @@ public class CharacterController : MonoBehaviour
     //public virtual void RandomCharacterColor(Transform CharacterRenderer, ColorType colorType)
     //{
     //    characterColor = colorType;
-    //    CharacterRenderer.GetComponent<MeshRenderer>().material = characterMat[(int)colorType];
+    //    renderer.material = dataColor.GetColorMat(colorType);
     //}
 
 
@@ -87,25 +89,27 @@ public class CharacterController : MonoBehaviour
 
     protected virtual Stair CheckStair()
     {
-       
         RaycastHit hit;
-        
-        if (Physics.Raycast(transform.position,Vector3.down, out hit, Mathf.Infinity, LayerStair))
+
+        if (Physics.Raycast(transform.position, Vector3.down, out hit,5f, LayerStair))
         {
             if (hit.collider != null)
             {
                 var stair = hit.collider.GetComponent<Stair>();
                 if (stair.colorType != characterColor && QuantityBrick != 0)
-
                 {
                     RemoveBrick();
                     stair.ChangeColor(characterMat, characterColor);
                 }
+                if((stair.colorType != characterColor && QuantityBrick == 0))
+                {
 
+                }
             }
 
         }
-        return null;
+        return null; 
+
     }
 }
 

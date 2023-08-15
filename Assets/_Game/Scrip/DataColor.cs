@@ -6,7 +6,13 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "DataColor", menuName = "ScriptableObjects", order = 1)]
 public class DataColor : ScriptableObject
 {
-   public List<ColorData> ColorDatas;
+    [SerializeField] Material[] colorMats;
+    public List<ColorData> ColorDatas;
+
+    public Material GetColorMat(ColorType colorType)
+    {
+        return colorMats[(int)colorType];
+    }
 }
 
 [Serializable]
@@ -15,6 +21,7 @@ public struct ColorData
     public ColorType type;
     public Material mat;
 }
+
 public enum ColorType
 {
     None = 0,
